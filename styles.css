@@ -1,0 +1,6 @@
+.red-circle {
+  background-image: url(red_circle.png);
+  display: block;
+  height: 225px;
+  width: 225px;
+}

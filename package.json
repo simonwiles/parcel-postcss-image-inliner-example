@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-nightly.495",
+    "postcss": "^8.2.2",
+    "postcss-image-inliner": "^4.0.4"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-image-inliner": {
+        "strict": true,
+        "assetPaths": [
+          "**/leaflet/dist"
+        ]
+      }
+    }
+  },
+  "dependencies": {
+    "leaflet": "^1.7.1"
+  }
+}
